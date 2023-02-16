@@ -1,3 +1,4 @@
-import chalk from 'chalk';
-
-console.log(chalk.red('Hello world!'));
+import validator from 'validator';
+import isEmail from 'validator/lib/isEmail';
+const res = validator.isEmail("abhishek.nt94@gmail.com");
+console.log(res);
